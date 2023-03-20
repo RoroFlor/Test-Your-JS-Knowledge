@@ -1,0 +1,32 @@
+.choice-container{
+    display: flex;
+    margin-bottom: .8rem;
+    width: 100%;
+    border-radius: 4px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 3rem;
+    min-width: 20rem;
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 purple;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.choice-prefix{
+    padding: 2rem;
+    width: 10%
+}
+
+.choice-text{
+    padding: 2rem;
+    width: 10%;
+}
+
+#question{
+    font-size: 4rem;
+    margin-bottom: 5rem;
+}
