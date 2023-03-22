@@ -1,18 +1,18 @@
+const srtbtn = document.querySelector()
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelector('.choice-text'));
 
-var currentQuestion = {};
-var correctChoice = true;
-var availableQuestion = [];
 
 var questions = [
     {
         // question 1
         question: 'Commonly used data types DO NOT include:',
-        choice1: 'Strings',
-        choice2: 'Booleans',
-        choice3: 'Alerts',
-        choice4: 'Numbers',
+        choices: [
+            'Strings',
+            'Booleans',
+            'Alerts',
+            'Numbers', 
+        ],
         correct: '3'
 
     },
@@ -28,7 +28,7 @@ var questions = [
     },
     {
         // question 3
-        question: 'Arrays in javascriptcan be used to store ___.',
+        question: 'Arrays in javascript can be used to store ___.',
         choice1: 'Numbers and strings',
         choice2: 'Other arrays',
         choice3: 'Booleans',
@@ -57,5 +57,12 @@ var questions = [
     },
 ]
 
-var lastQuestionIndex = questions.length -1;
-var runningQuestionIndex = 0;
+var timerEl = document.getElementById('count');
+
+var time = [0, 0, 0];
+
+function stopwatch() {
+    
+    }
+}
+
