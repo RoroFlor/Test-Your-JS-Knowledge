@@ -18,3 +18,4 @@ function clear(){
 
 document.querySelector('#clear').onclick = clear
 PrintHighScores()
+
