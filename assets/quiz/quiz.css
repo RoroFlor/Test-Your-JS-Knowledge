@@ -30,3 +30,14 @@
     font-size: 4rem;
     margin-bottom: 5rem;
 }
+
+.timer{
+    position:fixed;
+    margin-bottom: 45%;
+    padding-left: 65%;
+    font-size: 3rem;
+}
+
+.hide{
+    display:none
+}
